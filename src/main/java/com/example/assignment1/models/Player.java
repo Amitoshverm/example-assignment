@@ -4,10 +4,8 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
 @Entity
-public class Player {
-    @Id
-    private Long id;
-    private String name;
+public class Player extends BasePlayer{
+
     private Long age;
     private Long playerRank;
 }

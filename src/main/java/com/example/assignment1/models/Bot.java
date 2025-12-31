@@ -4,10 +4,8 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
 @Entity
-public class Bot {
-    @Id
-    private long id;
-    private String name;
+public class Bot extends BasePlayer {
+
     private Long age;
     private Long botRank;
 
